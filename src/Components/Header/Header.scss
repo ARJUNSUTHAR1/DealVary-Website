@@ -1,0 +1,128 @@
+@import '/src/Static.scss';
+
+.header{
+  width: 100vw;
+  height: 70px;
+  // border: 1px solid red;
+  padding: 20px 0px;
+  font-family: $text1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    // margin: auto;
+    // border:1px solid red;
+    background-color: $color2;
+    align-items: center;
+
+    .logo{
+        img{
+          width: 170px;
+        }
+          // border: 1px solid;
+    }
+
+// Serach Bar...............
+form{
+  transition: all 1s;
+  width: 400px;
+  height: 40px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-family: $text1;
+  border: 1px solid rgb(169, 155, 155);
+  align-items: center;
+  display: flex;
+  // padding: 5px;
+  button{
+    text-align: center;
+    font-family: $text2;
+    border-radius: 25px;
+    border: 1px solid rgb(169, 155, 155);
+    background-color: transparent;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 30px;
+    width:90px;
+  }
+  svg{
+      box-sizing: border-box;
+      padding: 10px;
+      width: 55.5px;
+      font-family: $text1;
+      height: 55.5px;
+      border-radius: 50%;
+      color: #07051a;
+      text-align: center;
+      transition: all 0.3s;  
+      &:hover{
+        transform: scale(1.23);
+      }
+  }
+}
+
+input{
+  width: 100%;;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  font-size: 0.8em;
+  font-weight: 600;
+  border-radius: 20px;
+  font-family: $text2;
+  padding: 0 20px;
+}
+    .auth-button{
+      width:190px;
+      display: flex;
+      justify-content: space-between;
+    //   border: 1px solid;
+       button{
+        height: 40px;
+        width: 90px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius:25px;
+        font-family: $text2;
+        font-weight: 500;
+        border: none;
+        letter-spacing: 2px;
+        cursor: pointer;
+         transition: all 0.4s;
+        &:hover{
+            letter-spacing: 1px;
+        }
+    }
+    .login{
+        background-color: transparent;
+        border: 1px solid rgb(169, 155, 155);
+        stroke: none;
+        outline: none;
+        transition: all 0.4s;
+        &:hover{
+          background-color: $color1;
+          border: none;
+          color: #fff;
+        }
+    }
+    .sing{
+        background-color: $color1;
+        border: none;
+        stroke: none;
+        outline: none;
+        color: #fff;
+        &:hover{
+            background-color: $color2;
+            border: none;
+            border: 1px solid rgb(169, 155, 155);
+            color: black;
+          }
+    }
+       
+    }
+}
+
