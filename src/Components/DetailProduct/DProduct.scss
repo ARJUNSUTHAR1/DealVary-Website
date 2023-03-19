@@ -1,0 +1,258 @@
+
+.img-book-product{
+    display: flex;
+    // border: 1px solid;
+    width: 100%;
+    gap: 2px;
+    flex-wrap: wrap;
+    img{
+        width: 350px;
+        object-fit: cover;
+    }
+}
+.container-fluid {
+    height: 100%;
+    display: grid;
+    align-items: center;
+    // justify-content: flex-start;
+    font-family: $text2;
+    background:$color1;
+}
+.cart {
+    background: #fff;
+    font-family: $text2;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 27px 50px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.1);
+}
+.row1 {
+    display: flex;
+    align-items: center;
+    font-family: $text2;
+    justify-content: space-between;
+}
+#ProductImg {
+    margin-bottom: 25px;
+    transition: 0.4s;
+
+}
+.black,
+.red,
+.white,
+.yellow {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    transition: 0.3s;
+    font-family: $text2;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.black:hover {
+    border: 1px solid #000;
+}
+.black::before {
+    content: "";
+    background: #000;
+    width: 19px;
+    height: 19px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.red:hover {
+    border: 1px solid #ff0000;
+}
+.red::before {
+    content: "";
+    background: #ff0000;
+    width: 19px;
+    height: 19px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.white:hover {
+    border: 1px solid #fff;
+}
+.white::before {
+    content: "";
+    background: #fff;
+    width: 19px;
+    height: 19px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.yellow:hover {
+    border: 1px solid #ffff00;
+}
+.yellow::before {
+    content: "";
+    background: #ffff00;
+    width: 19px;
+    height: 19px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.colors {
+    display: flex;
+    background: rgb(55, 55, 55);
+    padding: 5px;
+    border-radius: 10px;
+    align-items: center;
+    font-family: $text2;
+    justify-content: center;
+}
+.price {
+    margin-bottom: 15px;
+}
+.price span:first-child {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: $text2;
+    margin-right: 10px;
+}
+.price span:last-child {
+    color: rgb(117, 117, 117);
+    font-family: $text2;
+    text-decoration: line-through;
+    font-size: 19px;
+}
+.reviews {
+    display: flex;
+    margin: 16px 0;
+    font-family: $text2;
+}
+.reviews p {
+    font-size: 15px;
+    color: #777;
+    font-family: $text2;
+    margin: 0;
+    margin-left: 8px;
+    line-height: 19px;
+}
+.reviews i {
+    color: #000;
+}
+.product-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: $text2;
+    // font-style: italic;
+    color: #000;
+}
+.product-inf {
+    margin-top: 20px;
+}
+.product-inf ul {
+    display: flex;
+    font-family: $text2;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.product-inf ul li:first-child {
+    margin-right: 15px;
+    text-decoration: none;
+    list-style: none;
+}
+.product-inf ul li {
+    padding: 10px 30px;
+    font-family: $text2;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+    list-style: none;
+}
+.product-inf ul li:hover {
+    border-radius: 5px;
+    background: #eee;
+}
+.product-inf ul li a {
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    font-size: 18px;
+    font-family: $text2;
+    font-weight: 500;
+}
+.product-inf ul li a:hover {
+    text-decoration: none;
+}
+.product-inf ul li.active {
+    border-bottom: 3px solid #000;
+    background: #eee;
+    font-family: $text2;
+    transition: 0.3s;
+}
+#Details {
+    display: none;
+}
+
+.custom-btn {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.3s;
+    font-weight: 500;
+    font-family: $text2;
+    margin-top: 20px;
+}
+.custom-btn:hover {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.88;
+}
+
+.buttons .row .col-md-6 {
+    display: flex;
+    font-family: $text2;
+    align-items: center;
+    justify-content: center;
+}
+.small-imgs {
+    display: flex;
+}
+.small-img {
+    margin: 0 5px;
+    cursor: pointer;
+    width: 22%;
+    font-family: $text2;
+}
+
+.custom-btn i {
+    margin-left: 15px;
+    font-family: $text2;
+}
+
+.size,
+.quantity {
+    font-family: $text2;
+    cursor: pointer;
+}
+.size:focus,
+.quantity:focus {
+    border-color: #919191 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 0, 0, 0.25) !important;
+}
+

@@ -1,0 +1,142 @@
+.testimonial{
+    background-image: url('../Home/bookj1.jpg');
+    // background-color: $color2;
+       width: 100%;
+       background-size: 100% 500px;
+    //    background-attachment: fixed;
+    // background-position: center;
+       background-repeat: no-repeat;
+       height: 100vh;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       // points........
+       .points-five{
+    display: flex;
+    width: 80vw;
+    height: 17vh;
+    // background-color: $color2;
+    
+    .point{
+        width: 100%;
+        height: 100%;
+        // border: 1px dotted rgb(213, 209, 209);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $color2;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+        
+        
+        .number{
+            //   border: 1px solid;
+            height: 63px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 63px;
+            font-family: $text2;
+            border-radius: 50%;
+          background-color: $color1;
+          stroke: none;
+          color: $color3;
+          font-size:25px;
+        }
+
+        .number-text{
+            font-family: $text2;
+            font-weight: 600;
+        }
+
+    }
+}
+
+
+//  slidebar
+.slideshow-container{
+    overflow-x: scroll;
+    display: flex;
+    // gap: 10px;
+    width: 60vw;
+    border-radius: 45px 45px 45px 45px;
+    height: 40vh;
+    background: transparent;
+    .slide {
+            background-color: #DEF5FF;
+            height: 100%;
+            // border: 1px solid;
+            width: 100%;
+            // margin-right: 60px;
+            // margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s;
+
+            .numbertext{
+                text-align: center;
+                padding: 12px;
+                // border: 1px solid;
+                width: 40%;
+            }
+            .rate {
+                display: flex;
+                padding: 25px 0px;
+                // border: 1px soli;
+                width: 100%;
+                justify-content: center;
+                gap: 20px;
+                .rate-img {
+                  width: 50px;
+                  height:50px;
+                  border-radius: 50%;
+                  overflow: hidden;
+  
+                  img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    transition: transform 0.5s ease;
+                  }
+  
+                  &:hover {
+                    img {
+                      transform: scale(1.33);
+                    }
+                  }
+                }
+  
+                h3 {
+                  font-size: 24px;
+                  color: $color3;
+                  font-family: $text2;
+                  font-weight: 100;
+                  z-index: 16;
+                  margin-bottom: 0px;
+                }
+  
+                p {
+                  font-size: 20px;
+                  // width: 140px;
+                  margin-top: 5px;
+  
+                  // background-color: $color2;
+                  span {
+                    color: $color3;
+                    background-color: transparent !important;
+                  }
+                }
+              }
+        }
+        .swiper-button-next::after,.swiper-button-prev::after{
+            color: $color3;
+       }
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        
+    }
+}

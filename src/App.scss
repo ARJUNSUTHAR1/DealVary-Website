@@ -2,8 +2,25 @@
 @import '../src/Components/Header/Header.scss';
 @import '../src//Components/Home/Home.scss';
 @import '../src/Components/Nav/Nav.scss';
+@import '../src/Components/NewArrivals/NewArrivals.scss';
+@import '../src/Components/Testimonial/Testimonial.scss';
+@import '../src/Components/Contact/Contact.scss';
+@import '../src/Components/Footer/Footer.scss';
+@import '../src/Components/Wishlist/Whishlist.scss';
+@import '../src/Components/ProductDetail/ProductDetails.scss';
+@import '../src/Components/DetailProduct/DProduct.scss';
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
+// body{
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+
+
