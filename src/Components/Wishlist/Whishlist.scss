@@ -1,0 +1,133 @@
+.whishlist {
+    background-color: $color2;
+    width: 100%;
+    height: 100vh;
+
+    .whishlist-content {
+        height: 100%;
+        width: 100%;
+
+        //    Arrow
+        .prev-wishlist {
+            padding: 0px 10px;
+
+            svg {
+                font-size: 5rem;
+                color: #66CDF0;
+                cursor: pointer;
+            }
+        }
+
+        .main-wishlist {
+            height: 100%;
+            width: 90%;
+            margin: auto;
+
+            h1 {
+                width: 50%;
+                border-bottom: 2.9px solid #00B6FF;
+                font-family: $text2;
+                color: $color3;
+                font-weight: 600;
+                font-size: 2.3rem;
+                padding: 5px 5px;
+            }
+
+            .list-books {
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 55px;
+                // justify-content: flex-start;
+                padding: 15px 5px;
+
+                .wish-book {
+                    height: 400px;
+                    width: 300px;
+                    display: flex;
+                    border-radius: 18px;
+                    flex-direction: column;
+                    background: rgba(255, 255, 255, 0.07);
+                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                    backdrop-filter: blur(8.8px);
+                    -webkit-backdrop-filter: blur(8.8px);
+                   
+                    // justify-content: center;
+                    align-items: center;
+
+                    .list-img {
+                        overflow: hidden;
+                        width: 170px;
+                        // border: 1px solid;
+                        height: 14rem;
+                        border-radius: 12px;
+                        overflow: hidden;
+                        margin: 20px 0px;
+                        img {
+                            object-fit: cover;
+                            height: 14rem;
+                            width: 170px;
+                            transition: transform 0.4s ease;
+                        }
+                        span{
+                            position: absolute;
+                            left:-5%;
+                            font-size: 30px;
+                            top: -5%;
+                        }
+
+                    }
+                    &:hover {
+                        img {
+                            transform: scale(1.32);
+                        }
+                    }
+
+                    .list-book-detail {
+
+                        display: flex;
+                        flex-direction: column;
+                         gap: 4px;
+                        align-items: center;
+                        h3 {
+                            font-size: 1.5rem;
+                            font-weight: 500;
+                            font-family: $text2;
+                        }
+
+                        p {
+                            font-family: $text2;
+                            // padding: 5px 0px;
+                            font-size: 13px;
+                            align-items: center;
+                            text-align: center;
+                        }
+
+                        button {
+                            font-family: $text2;
+                            width: 170px;
+                            border: none;
+                            height: 50px;
+                            border-radius: 20px;
+                            cursor: pointer;
+                            // background-color: #66CDF0;
+                            background-color: $color3;
+                            transform: translateY(20px);
+                            color: $color2;
+                            font-size: 1.4rem;
+                            border: none;
+                            transition: all 0.3s;
+                            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+                            &:hover {
+
+                                transform: translateY(0px);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

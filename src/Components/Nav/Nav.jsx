@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiShoppingCart } from 'react-icons/hi'
 import { FaHeart } from "react-icons/fa"
+import { Link } from 'react-router-dom'
 const Nav = () => {
     return (
         <section className='navbar'>
@@ -17,7 +18,7 @@ const Nav = () => {
                 </div>
                 <div className="nav-third">
                     <div className='heart-bg'>
-                        <FaHeart />
+                        <Link to={'/wishlist'}><FaHeart /></Link>
                     </div>
                     <div className='heart-bg'>
                         <HiShoppingCart />
