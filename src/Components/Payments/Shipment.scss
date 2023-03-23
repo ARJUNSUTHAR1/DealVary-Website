@@ -1,0 +1,124 @@
+.ship-main-container{
+    // border: 2px solid red;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    // align-items: center;
+    padding: 1rem;
+    
+    .ship-content{
+        margin: auto;
+        // border: 2px solid red;
+        border-radius: 1.5rem;
+        background-color: $color3;
+        width: 40vw;
+        text-align: center;
+        height: fit-content;
+        padding: 1rem 1rem;
+
+        svg{
+            font-size: 2rem;
+            cursor: pointer;
+        }
+        .top{
+            display: flex;
+            align-items: center;
+            text-align: center;  
+            gap: 1rem;
+            font-family: $text1;
+        }
+        .name{
+            display: flex;
+            justify-content: space-evenly;
+            gap: 2rem;
+            // padding: 2rem;
+            // border: 2px solid red;
+            width: 88%;
+            margin: 2rem auto;
+            
+            input{
+                height: 2rem;
+                padding: 0.3rem 1.2rem ;
+                outline: none;
+                border: none;
+            }
+        }
+
+        @mixin input-style{
+            height: 2rem;
+            padding: 0.3rem 1.2rem ;
+            outline: none;
+            border: none;
+        }
+        
+        .phone{
+            display: flex;
+            margin: 2rem auto;
+            width: 88%;
+            height: fit-content;
+            flex-direction: column;
+            // border: 2px solid red;
+            gap: 2rem;
+
+            input{
+                @include input-style;
+
+            }
+        }
+
+        .address{
+            // display: flex;
+            // border: 2px solid red;
+            width: 88%;
+            margin: auto;
+            height: 7rem;
+            // margin: 2rem auto;
+            
+            textarea{
+                @include input-style;
+                height: 100% !important;
+                width: 100% !important;
+                font-family: $text2;
+            }
+        }
+
+        .locality{
+            display: flex;
+            margin: 2rem auto;
+            width: 88%;
+            gap: 2rem;
+
+            input{
+               @include input-style;
+            }
+        }
+
+
+        .pay-btn{
+            // border: 2px solid red;
+            margin: 2rem auto;
+            width: 88%;
+            gap: 2rem;
+            height: 3rem;
+            button{
+                text-align: center;
+                height: 100%;
+                width: 100%;
+                border-radius: 4rem;
+                background-color: $color1;
+                font-family: $text2;
+                color: white;
+                font-size: 1.3rem;
+                border: none;
+                transition: transform 0.21s ease-in-out;
+
+                &:hover{
+                    background-color: #32c0f9;
+                    cursor: pointer;
+                    transform: translateY(5px);
+                }
+            }
+        }
+        
+    }
+}
