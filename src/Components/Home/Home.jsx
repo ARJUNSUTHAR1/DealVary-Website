@@ -1,8 +1,7 @@
 import React from 'react'
 import { Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import book1 from '../Home/bookj1.jpg'
-import book2 from '../Home/book2.jpg'
+import book1 from '../Home/hp.png'
 import NewArrivals from '../NewArrivals/NewArrivals';
 import Testimoinall from '../Testimonial/Testimoinall';
 import Contact from '../Contact/Contact';
@@ -18,7 +17,7 @@ const Home = () => {
      showIndicators={false} 
     //  showThumbs={false} 
      interval={1000}
-      infiniteLoop={true} 
+      infiniteLoop={false} 
       autoPlay={false}
       className="carosal"
       >
@@ -52,7 +51,7 @@ const Home = () => {
             </div>
           </div>
           </div>
-          {/* <img src={book2} alt="" /> */}
+          <img src={book1} alt="" />
         </a>
       </div>
 
@@ -86,7 +85,7 @@ const Home = () => {
             </div>
           </div>
           </div>
-          <img src={book2} alt="" />
+          <img src={book1} alt="" />
         </a>
       </div>
 

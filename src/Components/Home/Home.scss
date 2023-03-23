@@ -47,7 +47,7 @@
       margin: 0;
       padding: 0;
       border: none;
-      cursor: pointer;
+      // cursor: pointer;
       position: relative;
 
       a {
@@ -55,7 +55,7 @@
         // border-radius: 10px;
         // box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
         //   rgb(0 0 0 / 73%) 0px 16px 10px -10px;
-        cursor: pointer;
+        // cursor: pointer;
         display: block;
         position: relative;
 
@@ -69,14 +69,17 @@
           height: 84vh;
 
           p {
+            // width: 100%;
+            // display: flex;
+            // justify-content: flex-end;
             margin-top: 2.9rem;
-            color: $color2;
+            color: $color1;
             font-family: $text1;
             font-weight: 100;
             animation-name:downUp;
             animation-duration: 1.2s;
 
-            line-height: 0.8;
+            line-height: 0.6;
             font-size: 6.2rem;
           }
 
@@ -87,9 +90,11 @@
               border-radius: 15px;
               font-weight: 600;
               color: $color1;
-              background-color: #DEF5FF;
+              cursor: pointer;
+              // background-color: #DEF5FF;
+              background: transparent;
               font-family: $text2;
-              border: 4px solid $color1;
+              border: 1px solid $color1;
               animation-name:downUp;
               animation-duration: 1.2s;
               transition: transform 0.4s ease, background 0.4s ease-in, color 0.4s ease-in;
@@ -98,24 +103,25 @@
                 transform: translateY(-4px);
                 background-color: $color1;
                 color: $color2;
+                border-radius:30px 30px 30px 30px;
               }
             }
           }
 
           .rating {
             width: 100%;
-            height: 10rem;
+            height: 7rem;
             display: flex;
             justify-content: space-around;
 
             // gap: 30px;
             .rate {
-              width: 400px;
-              height: 100%;
+              width: 350px;
+              height: 10rem;
               border-radius: 30px 30px 0px 0px;
               display: flex;
               //  filter: blur(0.8px);
-              background: rgba(255, 255, 255, 0.07);
+              background: $color1;
               box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
               backdrop-filter: blur(6.8px);
               -webkit-backdrop-filter: blur(6.8px);
@@ -132,11 +138,11 @@
               animation-duration:0.9s;
               transition: transform 0.2s ease;
                &:hover{
-                transform: translateY(20px);
+                transform: translateY(-20px);
                }
               .rate-img {
-                width: 80px;
-                height: 80px;
+                width: 50px;
+                height: 50px;
                 border-radius: 50%;
                 overflow: hidden;
 
@@ -157,7 +163,7 @@
               }
 
               h3 {
-                font-size: 24px;
+                font-size: 18px;
                 color: $color2;
                 z-index: 16;
                 margin-bottom: 0px;
@@ -182,8 +188,8 @@
         img {
           // background-color: $color1;
           object-fit: cover;
-          // height: 84vh;
-          // width: 100vw;
+          height: 84vh;
+          width: 100vw;
 
         }
       }

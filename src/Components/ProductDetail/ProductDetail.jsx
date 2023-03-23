@@ -1,7 +1,7 @@
 import React from 'react'
 
-import book1 from '../Home/bookj1.jpg'
-import book2 from '../Home/book2.jpg'
+import book1 from '../Home/hp.png'
+
 
 const ProductDetail = () => {
   return (
@@ -9,9 +9,9 @@ const ProductDetail = () => {
       <div className="detail">
         <div className="product-imgs">
           <img src={book1} alt="" />
-          <img src={book2} alt="" />
           <img src={book1} alt="" />
-          <img src={book2} alt="" />
+          <img src={book1} alt="" />
+          <img src={book1} alt="" />
         </div>
         <div className="title-price">
            <p>Advanced Engneering <br /> Mathematics (AEM) for <br /> Semester-5</p>

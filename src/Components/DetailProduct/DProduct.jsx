@@ -1,6 +1,5 @@
 import React from 'react'
-import book1 from '../Home/bookj1.jpg'
-import book2 from '../Home/book2.jpg'
+import book1 from '../Home/hp.png'
 const DProduct = () => {
     return (
      <>

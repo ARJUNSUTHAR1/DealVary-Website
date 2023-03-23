@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import book2 from '../Home/book2.jpg'
+
 
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 // Import Swiper styles
@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 
 import { Parallax } from 'react-parallax'
-import book1 from '../Home/bookj1.jpg'
+import book1 from '../Home/hp.png'
 
 const Testimoinall = () => {
 

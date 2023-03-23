@@ -164,22 +164,22 @@ input{
         outline: none;
         transition: all 0.4s;
         &:hover{
-          background-color: $color1;
+          background-color: $color3;
           border: none;
           color: #fff;
         }
     }
     .sing{
-        background-color: $color1;
+        background-color: $color3;
         border: none;
         stroke: none;
         outline: none;
         color: #fff;
         &:hover{
-            background-color: $color2;
+            background-color: $color3;
             border: none;
             // border: 1px solid rgb(169, 155, 155);
-            color: black;
+            color: $color2;
           }
     }
        
