@@ -25,8 +25,8 @@ const Header = () => {
         <BiSearchAlt2 />
       </form>
       <div className="auth-button">
-        <button className='login'>Login</button>
-        <button className='sing'>Signup</button>
+        <Link to={'/login'}><button className='login'>Login</button></Link>
+        <Link to={'/signup'}><button className='sing'>SignUp</button></Link>
       </div>
     </header>
   </section >

@@ -21,7 +21,7 @@ const Nav = () => {
                         <Link to={'/wishlist'}><FaHeart /></Link>
                     </div>
                     <div className='heart-bg'>
-                        <HiShoppingCart />
+                        <Link to={'/cart'}><HiShoppingCart /></Link>
                     </div>
                     <p>0</p>
                 </div>

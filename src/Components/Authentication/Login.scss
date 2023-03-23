@@ -9,8 +9,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+    height: calc(100vh - 15vh);
+    width: 100%;
     .sub-container{
         // margin: auto;
         // width: 50vw;
@@ -26,7 +26,7 @@
     .content{
             // border: 2px solid green;
             padding: 1rem 1rem;
-            background-color: $color3;
+            background-color: $color1;
             text-align: center;
             border-radius: 1.22rem;
             // width: inherit;
@@ -124,7 +124,7 @@
             width: 100%;
             padding: 1rem;
             border-radius: 5rem;
-            background-color: $color3 ;
+            background-color: $color1 ;
             color: black;
             height: 3.5rem;
         

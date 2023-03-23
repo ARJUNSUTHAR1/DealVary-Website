@@ -1,6 +1,6 @@
 .ship-main-container{
     // border: 2px solid red;
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     display: flex;
     // align-items: center;
@@ -10,7 +10,7 @@
         margin: auto;
         // border: 2px solid red;
         border-radius: 1.5rem;
-        background-color: $color3;
+        background-color: $color4;
         width: 40vw;
         text-align: center;
         height: fit-content;
