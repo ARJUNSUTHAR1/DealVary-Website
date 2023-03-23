@@ -1,0 +1,147 @@
+.place-main-container{
+    // border: 2px solid red;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    // align-items: center;
+    padding: 1rem;
+
+    .place-content{
+        margin: auto;
+        // border: 2px solid red;
+        border-radius: 1.5rem;
+        background-color: transparent;
+        width: 60vw;
+        text-align: center;
+        height: fit-content;
+        padding: 1rem 1rem;
+    
+        svg{
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        .title{
+            display: flex;
+            align-items: center;
+            text-align: center;  
+            gap: 1rem;
+            font-family: $text1;
+        }
+        .cart-edit{
+            // border: 2px solid red;
+            display: flex;
+            padding: 1.3rem;
+            // flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1rem;
+            border-radius: 1rem;
+            background-color: $color3;
+
+            .cart-details{
+                display: flex;
+                align-items: center;
+                gap: 1.5rem;
+
+                svg{
+                    color: green;
+                    // border: 2px solid red;
+                    font-size: 2rem;
+                    height: 2rem;
+                    width: 2rem;
+                    padding: 0.2rem;
+                    border-radius: 50%;
+                    background-color: white;
+                }
+
+                p{
+                    font-size: 1.3rem;
+                    font-family: $text2;
+                }
+            }
+            button{
+                height: 2.5rem;
+                width: 8rem;
+                background-color: white;
+                cursor: pointer;
+                border: none;
+                border-radius: 1rem;
+
+                transition: transform 0.1s ease-in-out;
+
+                &:hover{
+                    background-color: $color1;
+                    color: white;
+                    
+                }
+            }
+        }
+        @mixin payment-options-style{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap : 1rem;
+            margin: 1rem auto;
+            height: 3rem;
+            // border: 2px solid green ;
+            padding: 0 1rem;
+            background-color: white;
+            border-radius: 1rem;
+        }
+
+        @mixin card-styling{
+            // border: 2px solid red;
+            padding: 0 0.5rem;
+            display: flex;
+            width: 20rem;
+            align-items: center;
+            flex-direction: column;
+            font-family: $text2;
+        }
+        .cards{
+            @include card-styling;
+
+            input{
+                font-size: 2rem;
+            }
+
+            .debit{
+                @include payment-options-style;
+            }
+            .netBank{
+                @include payment-options-style;
+            }
+            // .cod{
+            //     @include payment-options-style;
+
+            // }
+        }
+        .row-2{
+            @include card-styling;
+
+            .upi,.cod{
+                @include payment-options-style;
+            }
+        }
+
+       .place-btn{
+            display: flex;
+            justify-content: flex-end;
+
+            button{
+                // width: 100%;
+                text-align: center;
+                font-size: 1rem;
+                background-color: $color1;
+                color: white;
+                transition: transform 0.21s ease-in-out;
+
+                &:hover{
+                    background-color: #32c0f9;
+                    cursor: pointer;
+                    transform: translateY(5px);
+                }
+            }
+       }
+    }
+}
