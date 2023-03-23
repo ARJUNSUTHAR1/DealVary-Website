@@ -11,8 +11,7 @@ import 'swiper/css/navigation';
 // import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import book1 from '../Home/bookj1.jpg'
-import book2 from '../Home/book2.jpg'
+import book1 from '../Home/hp.png'
 
 const NewArrivals = () => {
     return (
@@ -37,7 +36,7 @@ const NewArrivals = () => {
                         <SwiperSlide>
                             <div className="arrivals-book">
                             <div className='book-img'>
-                                <img src={book2} alt="" />
+                                <img src={book1} alt="" />
                             </div>
                             <div className='arrive-book-detail'>
                                 <p>⭐⭐⭐⭐ <span>4.9</span></p>
@@ -50,7 +49,7 @@ const NewArrivals = () => {
                         <SwiperSlide>
                             <div className="arrivals-book">
                             <div className='book-img'>
-                                <img src={book2} alt="" />
+                                <img src={book1} alt="" />
                             </div>
                             <div className='arrive-book-detail'>
                                 <p>⭐⭐⭐⭐ <span>4.9</span></p>
@@ -63,7 +62,7 @@ const NewArrivals = () => {
                         <SwiperSlide>
                             <div className="arrivals-book">
                             <div className='book-img'>
-                                <img src={book2} alt="" />
+                                <img src={book1} alt="" />
                             </div>
                             <div className='arrive-book-detail'>
                                 <p>⭐⭐⭐⭐ <span>4.9</span></p>
@@ -76,7 +75,7 @@ const NewArrivals = () => {
                         <SwiperSlide>
                             <div className="arrivals-book">
                             <div className='book-img'>
-                                <img src={book2} alt="" />
+                                <img src={book1} alt="" />
                             </div>
                             <div className='arrive-book-detail'>
                                 <p>⭐⭐⭐⭐ <span>4.9</span></p>
@@ -89,7 +88,7 @@ const NewArrivals = () => {
                         <SwiperSlide>
                             <div className="arrivals-book">
                             <div className='book-img'>
-                                <img src={book2} alt="" />
+                                <img src={book1} alt="" />
                             </div>
                             <div className='arrive-book-detail'>
                                 <p>⭐⭐⭐⭐ <span>4.9</span></p>

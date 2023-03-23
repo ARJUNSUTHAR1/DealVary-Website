@@ -1,10 +1,10 @@
 import React from 'react'
 import { SiMinutemailer } from 'react-icons/si'
-import book2 from '../Home/book2.jpg'
+import book1 from '../Home/hp.png'
 import {Parallax} from 'react-parallax'
 const Contact = () => {
     return (
-        <Parallax strength={300} blur={{min:-5,max:15}} bgImage={book2}>
+        <Parallax strength={300} blur={{min:-5,max:15}} bgImage={book1}>
         <section className='contact'>
             <div className="contact-content">
                 <div className="contact-text">

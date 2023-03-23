@@ -1,5 +1,5 @@
 import React from 'react'
-import book2 from '../Home/book2.jpg'
+import book2 from '../Home/hp.png'
 import { BiLeftArrowAlt } from 'react-icons/bi'
 const Whishlist = () => {
     return (
