@@ -57,7 +57,8 @@ const Testimoinall = () => {
                             <div class="numbertext"><p>"As an engineering student, I highly recommend this bookstore for its extensive collection of engineering textbooks and resources. It's been my go-to source for all my course materials and has never failed to provide me with the latest editions and helpful study guides."</p></div>
                             <div className="rate">
                                 <div className='rate-img'><img src={book1} alt="" /></div>
-                                <div><h3>Laura Dave</h3>
+                                <div>
+                                    <h3>Laura Dave</h3>
                                     <p>⭐⭐⭐⭐<span>4.8</span></p>
                                 </div>
                             </div>
