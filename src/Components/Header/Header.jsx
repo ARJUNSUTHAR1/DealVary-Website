@@ -10,7 +10,7 @@ const Header = () => {
       <div className="logo">
         <Link to={'/'}><img src={Logo} alt="Logo" /></Link>
       </div>
-      <form>
+      <form className='sm:w-full'>
         <ul>
         <li class="dropdown">
           <a href="" class="dropbtn">All Categories</a>
@@ -24,7 +24,7 @@ const Header = () => {
         <input type="search" placeholder='Search for Books...' />
         <BiSearchAlt2 />
       </form>
-      <div className="auth-button">
+      <div className="auth-button ">
         <Link to={'/login'}><button className='login'>Login</button></Link>
         <Link to={'/signup'}><button className='sing'>SignUp</button></Link>
       </div>

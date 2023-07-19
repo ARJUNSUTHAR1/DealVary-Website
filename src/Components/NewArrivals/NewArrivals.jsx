@@ -21,7 +21,7 @@ const NewArrivals = () => {
                     <h1>New Arrivals</h1>
                     <p>See all products</p>
                 </div>
-                <div className="arrivals-slider">
+                <div className="arrivals-slider flex-wrap">
                     <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y]}
                         spaceBetween={0}
