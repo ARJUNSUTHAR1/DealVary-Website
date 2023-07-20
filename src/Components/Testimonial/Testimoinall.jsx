@@ -67,15 +67,15 @@ const Testimoinall = () => {
                 </Swiper>
             </div>
             <div className="points-five">
-                <div className="point">
-                    <div className="number">
+                <div className="point ">
+                    <div className="number ">
                         1
                     </div>
                     <p className="number-text">
                         Extensive Collection
                     </p>
                 </div>
-                <div className="point">
+                <div className="point sm:h-[20px]">
                     <div className="number">
                         2
                     </div>
@@ -83,7 +83,7 @@ const Testimoinall = () => {
                         Easy Navigation
                     </p>
                 </div>
-                <div className="point">
+                <div className="point sm:h-[20px]">
                     <div className="number">
                         3
                     </div>
@@ -91,7 +91,7 @@ const Testimoinall = () => {
                         Competitive Pricing
                     </p>
                 </div>
-                <div className="point">
+                <div className="point sm:h-[20px]">
                     <div className="number">
                         4
                     </div>

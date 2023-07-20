@@ -31,10 +31,9 @@
     }
 
 // Serach Bar...............
-
 form{
   transition: all 1s;
-  width: 40%;
+  width: 350px !important;
   height: 60px;
   background: white;
   box-sizing: border-box;
@@ -197,6 +196,11 @@ input{
     
   }
   
+  
+
+
+
+
   .header{
     height: 25vh;
     
@@ -204,11 +208,20 @@ input{
   }
   .login{
     position: absolute;
-    top: 5%;
-    right: 4%;
+    top: 4%;
+    right: 2%;
+    font-size: large;
   }
-  .sing{
-    display: none;
-  }
+  .header-content .auth-button .sing {
+    border: none;
+    stroke: none;
+    outline: none;
+    color: #07051a;
+    font-size: 0.5rem;
+    background: none;
+    position: absolute;
+    top: 40px;
+    text-decoration: underline;
+}
   
 }

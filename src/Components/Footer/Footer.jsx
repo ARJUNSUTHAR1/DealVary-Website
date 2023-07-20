@@ -28,8 +28,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="about">
-            <div className="about-section">
-                <p>About</p>
+            <div className="about-section  ">
+                <p >About</p>
                 <ul>
                     <li>PRIVACY POLICY</li>
                     <li>TERM OF USE</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                     <li>FAQ's</li>
                 </ul>
             </div>
-            <div className="company-section">
+            <div className="company-section ">
             <p>Company</p>
             <ul>
                     <li>PRIVACY POLICY</li>

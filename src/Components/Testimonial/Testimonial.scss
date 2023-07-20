@@ -17,6 +17,8 @@
     display: flex;
     width: 80vw;
     height: 17vh;
+    overflow: scroll;
+    flex-wrap: wrap;
     // background-color: $color2;
 
     .point {
@@ -157,3 +159,10 @@
 
   }
 }
+// @media screen and (max-width : 797px){
+//   .points-five{
+//     display: grid;
+//     grid-template-columns: auto auto auto;
+//     height: 100%;
+//   }
+// }

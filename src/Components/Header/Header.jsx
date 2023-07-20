@@ -26,7 +26,7 @@ const Header = () => {
       </form>
       <div className="auth-button ">
         <Link to={'/login'}><button className='login'>Login</button></Link>
-        <Link to={'/signup'}><button className='sing'>SignUp</button></Link>
+        <Link to={'/signup'}><button className='sing @screen max-width:797px {bg-white}'>SignUp</button></Link>
       </div>
     </header>
   </section >
