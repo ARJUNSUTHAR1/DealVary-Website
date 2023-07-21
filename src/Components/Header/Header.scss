@@ -15,7 +15,7 @@
 .header-content{
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     // margin: auto;
     // border:1px solid red;
     background-color: $color2;
@@ -208,7 +208,7 @@ input{
   }
   .login{
     position: absolute;
-    top: 4%;
+    top: 3.5%;
     right: 2%;
     font-size: large;
   }
@@ -220,8 +220,11 @@ input{
     font-size: 0.5rem;
     background: none;
     position: absolute;
-    top: 40px;
+    top: 6%;
+    right: 2%;
     text-decoration: underline;
+    background : none !important;
+    color: #07051a !important;
 }
   
 }

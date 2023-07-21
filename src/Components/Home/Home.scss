@@ -384,7 +384,15 @@ input{
        
     }
 }
-@media screeen and (max-width : 700px){
- 
+@media screen and (max-width : 797px){
+  .home .carosal div a .home-text{
+    height: 40vh;
+  }
+  .home .carosal div a img{
+    height: 75vh;
+  }
+.home .carosal div a .home-text p{
+  font-size: 4.2rem;
+}
   
 }

@@ -27,12 +27,13 @@ const NewArrivals = () => {
                         spaceBetween={0}
                         
                         //   zoom={true}
-                        slidesPerView={3}
+                        slidesPerView={1}
                         scrollbar={false}
                         navigation
                         // pagination={{ clickable: true }}
                         onSwiper={(swiper) => console.log(swiper)}
                         onSlideChange={() => console.log('slide change')}>
+                            
                         <SwiperSlide>
                             <div className="arrivals-book">
                             <div className='book-img'>
@@ -98,6 +99,7 @@ const NewArrivals = () => {
                             </div>
                         </div>
                         </SwiperSlide>
+                        
                     </Swiper>
                 </div>
             </div>

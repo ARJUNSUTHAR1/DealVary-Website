@@ -17,20 +17,20 @@
     display: flex;
     width: 80vw;
     height: 17vh;
-    overflow: scroll;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     // background-color: $color2;
 
     .point {
-      width: 100%;
+      width: 20%;
       height: 100%;
-      // border: 1px dotted rgb(213, 209, 209);
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: $color2;
-      justify-content: space-around;
-      flex-wrap: wrap-reverse;
+      background-color: white;
+      justify-content: space-between;
+      flex-wrap: nowrap;
 
 
       .number {
@@ -52,6 +52,7 @@
       .number-text {
         font-family: $text2;
         font-weight: 600;
+        flex: wrap;
       }
 
     }
@@ -159,10 +160,27 @@
 
   }
 }
-// @media screen and (max-width : 797px){
-//   .points-five{
-//     display: grid;
-//     grid-template-columns: auto auto auto;
-//     height: 100%;
-//   }
-// }
+@media screen and (max-width : 797px){
+  .testimonial .slideshow-container .slide .numbertext {
+   width: 100%;
+   padding: 1rem;
+  }
+  
+
+.testimonial .slideshow-container {
+  width : 40vh;
+}
+
+
+.testimonial .slideshow-container .slide .rate{
+  width: 86%;
+}
+.points-five{
+  flex-direction: column !important;
+ flex-wrap: nowrap !important;
+ justify-content: space-between;
+ align-items: center;
+ overflow: scroll;
+ gap: 10px !important;
+}
+}

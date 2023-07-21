@@ -62,7 +62,7 @@ const Home = () => {
               <div className="button-start">
                 <button>Get Started</button>
               </div>
-              <div className='rating'>
+              {/* <div className='rating'>
                 <div className="rate">
                   <div className='rate-img'><img src={book1} alt="" /></div>
                   <h3>Laura Dave</h3>
@@ -82,8 +82,8 @@ const Home = () => {
                   <div className='rate-img'><img src={book1} alt="" /></div>
                   <h3>Laura Dave</h3>
                   <p>⭐⭐⭐⭐<span>4.8</span></p>
-                </div>
-              </div>
+                </div> */}
+              {/* </div> */}
             </div>
             <img src={book1} alt="" />
           </a>

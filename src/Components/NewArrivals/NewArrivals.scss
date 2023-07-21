@@ -16,7 +16,7 @@
     .arrivals-content {
         background-color: $color1;
         border-radius: 45px 45px 45px 45px;
-        height: 75vh;
+        height: 89vh;
         width: 80vw;
 
         // border: 1px solid;
@@ -58,7 +58,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 28rem;
+                height: 29rem;
                 background-color: $color2;
                 
                 .arrivals-book {
@@ -152,5 +152,15 @@
                 }
         }
         }
+    }
+}
+@media screen and (max-width : 797px){
+    
+
+    .new-arrivals .arrivals-content .arrivals-slider .swiper-slide .arrivals-book{
+        width: 100%;
+    }
+    .new-arrivals .arrivals-content{
+        height: 96vh;
     }
 }

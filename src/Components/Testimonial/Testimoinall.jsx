@@ -75,7 +75,7 @@ const Testimoinall = () => {
                         Extensive Collection
                     </p>
                 </div>
-                <div className="point sm:h-[20px]">
+                <div className="point ">
                     <div className="number">
                         2
                     </div>
@@ -83,7 +83,7 @@ const Testimoinall = () => {
                         Easy Navigation
                     </p>
                 </div>
-                <div className="point sm:h-[20px]">
+                <div className="point">
                     <div className="number">
                         3
                     </div>
@@ -91,7 +91,7 @@ const Testimoinall = () => {
                         Competitive Pricing
                     </p>
                 </div>
-                <div className="point sm:h-[20px]">
+                <div className="point ">
                     <div className="number">
                         4
                     </div>
@@ -104,7 +104,7 @@ const Testimoinall = () => {
                         5
                     </div>
                     <p className="number-text">
-                        Responsive Customer Services
+                    Customer Services
                     </p>
                 </div>
             </div>

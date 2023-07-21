@@ -146,3 +146,20 @@
 
 
 }
+@media  screen and (max-width : 916px) {
+    .main-container{
+        background-image: none;
+    }
+    .main-container .sub-container{
+        margin: auto;
+    }
+    .main-container .sub-container .content{
+     width: 75vw;
+    }
+    .main-container .sub-container .content .email-input input{
+        width: 100%;
+    }
+.main-container .sub-container button{
+    position: relative;
+}
+}
