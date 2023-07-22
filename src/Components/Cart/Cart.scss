@@ -266,7 +266,7 @@
      .cart-details{
         width: 95vw;
     }
-    .bookname {
+    .cart-main-container .cart-content .cart-features .cart-details .cart-products .products-section .product-description .product-about .bookname {
         font-size: 0.8rem;
     }
     .product-about p{
@@ -274,5 +274,24 @@
     }
     .product-description {
         flex-direction: column;
+        
+    }
+    .description{
+        font-size: 0.8rem;
+    }
+    p{
+        font-size: 0.6rem;
+        
+    }
+    .quality{
+        font-size: 0.6rem;
+        
+    }
+    .remove{
+        font-size: 0.6rem;
+        
+    }.Price{
+        font-size: 0.6rem;
+        
     }
 }
