@@ -10,11 +10,12 @@ const ProductDesc = () => {
                     <img src={NK} alt="" />
                 </div>
                 <div className="product-about">
-                    <p>⭐⭐⭐⭐⭐ 4.8</p>
-                    <div>AEM : Advanced Engineering Mathematics</div>
+                    
+                    <div className='bookname'>AEM : Advanced Engineering Mathematics</div>
                     <div className="author">
                         <p>AUTHOR : PROF K.C. SARGANGI &MORE</p>
                     </div>
+                    <p>⭐⭐⭐⭐⭐ 4.8</p>
                 </div>
             </div>
         </>

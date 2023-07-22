@@ -126,7 +126,9 @@
                             .product-about{
                                 text-align: left;
                                 font-family: $text2;
-
+                                .bookname{
+                                    font-size: large;
+                                }
                                 p{
                                     margin: 0.2rem 0;
                                 }
@@ -233,29 +235,41 @@
     }
 }
 @media  screen and (max-width : 797px) {
-    .cart-main-container .cart-content .cart-features{
+     .cart-features{
         flex-direction: column !important;
         justify-content: space-between;
         gap: 5px;
         align-items: center;
     }
-    .cart-main-container .cart-content .cart-features .cart-checkout{
+    .cart-checkout{
         width: 75%;
         height: 40%;
     }
-    .cart-main-container .cart-content .cart-features .cart-checkout .first{
+     .first{
         margin: 0.5rem;
     }
-    .cart-main-container .cart-content .cart-features .cart-checkout .second{
+    .second{
         margin: 0.5rem;
     }
-    .cart-main-container .cart-content .cart-features .cart-checkout .third{
+    .third{
         margin: 0.5rem;
     }
-    .cart-main-container .cart-content .cart-features .cart-checkout aside h5{
+    .cart-checkout aside h5{
         font-size: 15px;
     }
     h3{
         font-size: 15px;
+    }
+     .cart-details{
+        width: 95vw;
+    }
+    .bookname {
+        font-size: 0.8rem;
+    }
+    .product-about p{
+        font-size: 0.5rem;
+    }
+    .product-description {
+        flex-direction: column;
     }
 }
